@@ -495,6 +495,10 @@
     [
       "676308d2-6f42-4cc0-804f-a459182d1a62",
       "IMU"
+    ],
+    [
+      "bc23ea56-d50e-4ce7-856f-e38dfbe72971",
+      "Power"
     ]
   ],
   "text_variables": {}

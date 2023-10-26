@@ -259,6 +259,23 @@
     )
   )
 
+  (sheet (at 74.93 128.27) (size 25.4 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bc23ea56-d50e-4ce7-856f-e38dfbe72971)
+    (property "Sheetname" "Power" (at 74.93 127.5584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 74.93 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36" (page "7"))
+      )
+    )
+  )
+
   (sheet (at 137.16 38.1) (size 38.1 76.2) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
