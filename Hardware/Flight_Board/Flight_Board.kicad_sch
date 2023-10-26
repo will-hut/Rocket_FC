@@ -1,5 +1,31 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e8eb85d5-f1ff-4500-895d-25b9ff5f6d36)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 105.41 67.31) (size 24.13 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fd3d6b0b-6f33-4db6-8189-55f0522596d3)
+    (property "Sheetname" "Microcontroller" (at 105.41 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 105.41 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
