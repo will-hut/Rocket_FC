@@ -481,16 +481,16 @@
       "Microcontroller"
     ],
     [
-      "52cae81a-54fe-42c0-9a19-be88b271d004",
-      "GPS"
+      "43c0adf1-436b-4b66-9010-44cf9a79cc96",
+      "Accelerometer"
     ],
     [
       "438715e3-b069-4320-9581-dc19d9c2cf0e",
       "Barometer"
     ],
     [
-      "43c0adf1-436b-4b66-9010-44cf9a79cc96",
-      "Accelerometer"
+      "52cae81a-54fe-42c0-9a19-be88b271d004",
+      "GPS"
     ],
     [
       "676308d2-6f42-4cc0-804f-a459182d1a62",
