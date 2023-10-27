@@ -499,6 +499,10 @@
     [
       "bc23ea56-d50e-4ce7-856f-e38dfbe72971",
       "Power"
+    ],
+    [
+      "d0c90712-c1df-4337-b369-5da6fbfa813f",
+      "MicroSD"
     ]
   ],
   "text_variables": {}
