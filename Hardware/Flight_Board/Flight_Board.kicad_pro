@@ -503,6 +503,10 @@
     [
       "d0c90712-c1df-4337-b369-5da6fbfa813f",
       "MicroSD"
+    ],
+    [
+      "b8693ad3-3ddc-49de-9e74-abaac859dbd9",
+      "Current Switch"
     ]
   ],
   "text_variables": {}
