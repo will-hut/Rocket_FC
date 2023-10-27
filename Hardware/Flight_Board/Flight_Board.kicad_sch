@@ -122,6 +122,11 @@
     (uuid e9480e74-b4c8-494a-a0be-39f04db9cb15)
   )
 
+  (text "Set INPUT_PULLUP in software\nto cover ~{ST1,2,3} pullups\n"
+    (at 21.59 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 317796db-ba5b-480c-bace-704d05df9dc3)
+  )
   (text "TPS current limiter\ngoes here" (at 118.11 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50d5e8c2-3f02-4543-bcff-82858c718a26)
