@@ -507,6 +507,10 @@
     [
       "b8693ad3-3ddc-49de-9e74-abaac859dbd9",
       "Current Switch"
+    ],
+    [
+      "7c06db2a-34f5-45c0-9668-fbbbd940678c",
+      "LoRa"
     ]
   ],
   "text_variables": {}
