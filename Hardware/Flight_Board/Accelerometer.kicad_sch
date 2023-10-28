@@ -422,7 +422,7 @@
   (symbol (lib_id "Project:ADXL375") (at 176.53 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b39592c-ca9b-4bcd-9fc8-526759acd3ee)
-    (property "Reference" "U4" (at 186.69 85.09 0)
+    (property "Reference" "U3" (at 186.69 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ADXL375" (at 190.5 87.63 0)
@@ -451,7 +451,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -460,7 +460,7 @@
   (symbol (lib_id "Device:R") (at 143.51 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22375d39-7c95-4b93-a807-d350dc79ab76)
-    (property "Reference" "R4" (at 144.78 60.96 0)
+    (property "Reference" "R3" (at 144.78 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 144.78 63.5 0)
@@ -477,7 +477,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -486,7 +486,7 @@
   (symbol (lib_id "power:GND") (at 146.05 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28baeb33-ac9c-4d41-909e-d760d410c40b)
-    (property "Reference" "#PWR034" (at 146.05 99.06 0)
+    (property "Reference" "#PWR019" (at 146.05 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 96.52 0)
@@ -502,7 +502,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -537,7 +537,7 @@
   (symbol (lib_id "power:GND") (at 203.2 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36b01bf1-ce2a-406e-9986-95441c96eaf9)
-    (property "Reference" "#PWR019" (at 203.2 69.85 0)
+    (property "Reference" "#PWR025" (at 203.2 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 67.31 0)
@@ -553,7 +553,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -562,7 +562,7 @@
   (symbol (lib_id "power:GND") (at 191.77 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 472709eb-4df8-4670-a6a0-e5cd2755e8c9)
-    (property "Reference" "#PWR018" (at 191.77 69.85 0)
+    (property "Reference" "#PWR024" (at 191.77 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 67.31 0)
@@ -578,7 +578,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -638,7 +638,7 @@
   (symbol (lib_id "power:+3.3V") (at 179.07 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4d5c2cb-d25c-48cc-8972-724302d848d3)
-    (property "Reference" "#PWR016" (at 179.07 59.69 0)
+    (property "Reference" "#PWR022" (at 179.07 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 179.07 50.8 0)
@@ -654,7 +654,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -714,7 +714,7 @@
   (symbol (lib_id "Device:R") (at 135.89 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9a8450e-e6e7-4566-93b0-d8b89fe503aa)
-    (property "Reference" "R3" (at 137.16 60.96 0)
+    (property "Reference" "R2" (at 137.16 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 137.16 63.5 0)
@@ -731,7 +731,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -740,7 +740,7 @@
   (symbol (lib_id "power:GND") (at 179.07 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc75f827-08b7-41c3-9230-71ac21182905)
-    (property "Reference" "#PWR017" (at 179.07 99.06 0)
+    (property "Reference" "#PWR023" (at 179.07 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 96.52 0)
@@ -756,7 +756,7 @@
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/43c0adf1-436b-4b66-9010-44cf9a79cc96"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
