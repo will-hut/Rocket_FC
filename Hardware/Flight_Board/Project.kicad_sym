@@ -560,7 +560,7 @@
     (property "Value" "MEM2067-02-180-00-A_REVB" (at 0 -25.4 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "MEM2067-02-180-00-A_REVB:GCT_MEM2067-02-180-00-A_REVB" (at 6.35 -27.94 0)
+    (property "Footprint" "Project:GCT_MEM2067-02-180-00-A_REVB" (at 6.35 -27.94 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
