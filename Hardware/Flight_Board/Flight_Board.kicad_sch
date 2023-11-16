@@ -1185,14 +1185,14 @@
     (property "Datasheet" "~" (at 27.94 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 728f3595-8bc5-4544-b4c2-7a57f1221a0b))
-    (pin "2" (uuid 9f0c0d6b-2c66-45ae-afd6-e1a4241e7178))
-    (pin "3" (uuid 460f10ad-6c26-4b63-b48b-b5af9e885ed0))
-    (pin "4" (uuid 4e1de56e-ffa9-4ac9-a0a6-49d3f5c86f34))
-    (pin "5" (uuid 5e4ca789-ad84-46d9-b99f-39d60595a335))
-    (pin "6" (uuid bdcee9c9-1526-4e89-993e-11e552e8e07f))
-    (pin "7" (uuid 70b2a582-d574-4f15-8e81-e53e805108dc))
-    (pin "8" (uuid bb328cb9-317d-4774-8d5f-b5d746e3336a))
+    (pin "1" (uuid 10d903a0-3a9a-4e78-870a-a0786f361f64))
+    (pin "2" (uuid 7beb166a-8c3a-4b73-b6b4-517bc73f5301))
+    (pin "3" (uuid 1bbd7b3f-889f-4032-a732-d98587123239))
+    (pin "4" (uuid b1132f9e-880d-4506-9f4c-aaefde90557b))
+    (pin "5" (uuid e93faba3-da9d-46b7-bfa0-ee125b3e160e))
+    (pin "6" (uuid da52b332-246a-44cf-b600-1b580a0a9760))
+    (pin "7" (uuid c3ba8ee7-8dfb-422f-af61-f914bc386d74))
+    (pin "8" (uuid b5f30fab-600c-4e8c-a6e6-1498f1d84d1f))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
