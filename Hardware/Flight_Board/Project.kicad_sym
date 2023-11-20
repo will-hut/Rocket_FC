@@ -755,7 +755,7 @@
     (property "Value" "TPS274160A" (at 12.7 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias" (at 1.27 -36.83 0)
+    (property "Footprint" "Project:TPS274160A" (at 1.27 -36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -31.75 -8.89 0)
