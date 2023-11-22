@@ -195,4 +195,9 @@
   (pad "8" smd rect (at 0.7493 0.500126 90) (size 0.254 0.2794) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45f9521c-3752-4c2e-80cb-047a68e675e7))
   (pad "9" smd rect (at 0.7493 0 90) (size 0.254 0.2794) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 818d8578-d2da-4d72-9466-1a4389dc4816))
   (pad "10" smd rect (at 0.7493 -0.500126 90) (size 0.254 0.2794) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1a55519c-861c-470d-944a-f3f306394997))
+  (model "${KIPRJMOD}/3dmodels/Bosch BMP388.step"
+    (offset (xyz 1 -1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

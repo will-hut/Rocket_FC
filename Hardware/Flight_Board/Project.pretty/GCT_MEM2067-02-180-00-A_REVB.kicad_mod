@@ -153,4 +153,9 @@
       )
     )
   )
+  (model "${KIPRJMOD}/3dmodels/MEM2067-02-180-00-A--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

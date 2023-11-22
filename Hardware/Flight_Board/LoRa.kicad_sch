@@ -389,16 +389,16 @@
     (property "Datasheet" "" (at 130.81 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5337ab50-772e-476a-aeb8-09665feae83b))
-    (pin "10" (uuid 0e5255e3-b7b2-4d76-838c-48c313c53417))
-    (pin "2" (uuid add4a2a0-2b3b-4bf9-ab2d-2ff073bddd00))
-    (pin "3" (uuid eb77085f-4eca-410b-975a-3e92a7b8252e))
-    (pin "4" (uuid 27735045-c95a-4c43-85ed-14cd306982b4))
-    (pin "5" (uuid 7a21d5f8-cb37-4fa6-8a16-cdf00f7179aa))
-    (pin "6" (uuid f0413555-7e4e-419f-9c61-5434026d03ce))
-    (pin "7" (uuid c0c39ad8-4c9d-409a-97a2-ce78c2becedf))
-    (pin "8" (uuid daeb845a-ba53-4f36-9da4-84e15ec6c815))
-    (pin "9" (uuid 70aa13f0-a87f-4362-92c2-b3f78c390933))
+    (pin "1" (uuid 7eef82cf-c332-46c1-b87b-b5d09b6b589c))
+    (pin "10" (uuid c9c78a54-af28-4d7d-a4e7-8902100166f2))
+    (pin "2" (uuid 568660dc-49e3-40a8-9b62-257b080abd80))
+    (pin "3" (uuid c29ae0e5-2f34-4ea6-a45e-854c7e7101b0))
+    (pin "4" (uuid fdfcfa3b-5cc1-4f43-94b4-e43264fa5255))
+    (pin "5" (uuid 7a732863-ee6f-4021-bd55-31ecd26019b2))
+    (pin "6" (uuid 93bd4e64-b2fc-4bbd-a22c-3e4844ca0f10))
+    (pin "7" (uuid e2bd07c9-470e-460f-9876-7106fbfcb6ed))
+    (pin "8" (uuid 06a92223-5fcd-4f50-a813-f8e031bd495e))
+    (pin "9" (uuid 1b813c6f-4569-401f-9d51-91901913ba07))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
@@ -411,7 +411,7 @@
   (symbol (lib_id "Device:R") (at 116.84 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 646bc23f-a66d-4558-bebd-ed05971b2c70)
-    (property "Reference" "R25" (at 119.38 78.74 0)
+    (property "Reference" "R29" (at 119.38 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 119.38 81.28 0)
@@ -423,12 +423,12 @@
     (property "Datasheet" "~" (at 116.84 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b50fe887-5eaa-4b5c-8d89-0586de734801))
-    (pin "2" (uuid 22d41261-d5ff-480e-96ad-b46fea812d01))
+    (pin "1" (uuid 7e24158d-80d0-4284-8ace-ac9c694883f6))
+    (pin "2" (uuid 2d190878-274f-44ab-bc18-fd70e394da0e))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "R25") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -437,7 +437,7 @@
   (symbol (lib_id "power:+3.3V") (at 130.81 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72425300-469d-4046-aff8-ef4cac66b832)
-    (property "Reference" "#PWR061" (at 130.81 81.28 0)
+    (property "Reference" "#PWR067" (at 130.81 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 130.81 72.39 0)
@@ -449,11 +449,11 @@
     (property "Datasheet" "" (at 130.81 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd9311b0-8f43-41dd-b78d-fd0cb0d0aceb))
+    (pin "1" (uuid dd2d2fed-a187-40b8-9eec-88ef2201dd7d))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -462,7 +462,7 @@
   (symbol (lib_id "power:+3.3V") (at 116.84 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78e3819c-5e57-47b0-95ec-eb7f089ed3c2)
-    (property "Reference" "#PWR060" (at 116.84 80.01 0)
+    (property "Reference" "#PWR066" (at 116.84 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 116.84 71.12 0)
@@ -474,11 +474,11 @@
     (property "Datasheet" "" (at 116.84 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e8a292c-bccc-4dd6-b3a0-31cd7dc8f08f))
+    (pin "1" (uuid 2cda141a-8cb3-4632-ab97-d6dd0027a8c1))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -487,7 +487,7 @@
   (symbol (lib_id "power:GND") (at 130.81 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 898d6c2c-af0f-4047-afce-62f764897825)
-    (property "Reference" "#PWR062" (at 130.81 105.41 0)
+    (property "Reference" "#PWR068" (at 130.81 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 104.14 0)
@@ -499,11 +499,11 @@
     (property "Datasheet" "" (at 130.81 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 952b871f-13ab-44d1-a2af-f95f743ab16a))
+    (pin "1" (uuid 36fe948f-fdce-4471-879d-8b624786a222))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -512,7 +512,7 @@
   (symbol (lib_id "Device:LED") (at 91.44 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9abbec0b-bd8f-4b1f-89cc-7842cfbefc76)
-    (property "Reference" "D1" (at 95.25 109.5375 90)
+    (property "Reference" "D3" (at 95.25 109.5375 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BUSY" (at 95.25 112.0775 90)
@@ -524,12 +524,12 @@
     (property "Datasheet" "~" (at 91.44 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 985c1115-4eec-43b0-a4c7-e7e1df68f28b))
-    (pin "2" (uuid 62d33a82-724e-42c6-b387-8dafe00fc13d))
+    (pin "1" (uuid d1e8d680-b95f-422b-868a-2d157243e052))
+    (pin "2" (uuid 966986a1-ce2f-42ef-b46a-5816ea25e014))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "D1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -538,7 +538,7 @@
   (symbol (lib_id "Device:R") (at 91.44 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c947d8b4-b7d2-481f-bcc8-4e70c7de6e04)
-    (property "Reference" "R26" (at 93.98 100.33 0)
+    (property "Reference" "R28" (at 93.98 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 93.98 102.87 0)
@@ -550,12 +550,12 @@
     (property "Datasheet" "~" (at 91.44 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f088e5f1-6911-488a-8158-e4401a4d4788))
-    (pin "2" (uuid 2b4baf9d-a06b-4816-abe1-3324f02260f1))
+    (pin "1" (uuid 73e90f82-be2f-4f1c-8229-c60a82ff3581))
+    (pin "2" (uuid ed3ed991-2aac-4fda-8bc9-b259eb853ec7))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "R26") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -576,7 +576,7 @@
     (property "Datasheet" "" (at 177.8 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2b71ca7-465c-433b-a6bc-f73de1d128a0))
+    (pin "1" (uuid 56ef1fcd-85f5-4188-a00a-cc9cbfba6d08))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
@@ -592,7 +592,7 @@
   (symbol (lib_id "power:GND") (at 91.44 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df8311ab-e2ef-4561-9e06-63739e5112b5)
-    (property "Reference" "#PWR063" (at 91.44 119.38 0)
+    (property "Reference" "#PWR065" (at 91.44 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 118.11 0)
@@ -604,11 +604,11 @@
     (property "Datasheet" "" (at 91.44 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 398d51fc-e469-4f38-8695-b4c7cd8c1094))
+    (pin "1" (uuid 57a8e090-f1de-4d9e-a86e-4ee5d9a9f719))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -629,15 +629,15 @@
     (property "Datasheet" "~" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 21d39f82-9569-4116-b52a-76281c4e3088))
-    (pin "2" (uuid 0126d8ac-58eb-4411-84a0-c36acb56bf81))
+    (pin "1" (uuid 0316b066-9645-4ea1-80b1-47a963c2b550))
+    (pin "2" (uuid 83cd5443-90ab-47bc-846e-84312152b63c))
     (instances
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
           (reference "R31") (unit 1)
         )
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36/7c06db2a-34f5-45c0-9668-fbbbd940678c"
-          (reference "R32") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
