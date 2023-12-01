@@ -549,7 +549,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 139.7 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fabf9d2a-c741-4b97-8104-35ec76ea49e2)
-    (property "Reference" "TP2" (at 144.78 90.678 90)
+    (property "Reference" "TP3" (at 144.78 90.678 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "BARO_INT" (at 138.43 88.9 0)

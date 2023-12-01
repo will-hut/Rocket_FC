@@ -445,7 +445,10 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(118, 255, 0)",
+      "GND": "rgb(23, 62, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

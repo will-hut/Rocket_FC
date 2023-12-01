@@ -404,7 +404,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 144.78 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f5fd9ac-ba6f-4633-9bfd-7380c3fe0922)
-    (property "Reference" "TP2" (at 149.86 74.168 90)
+    (property "Reference" "TP3" (at 149.86 74.168 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "IMU_INT" (at 143.51 72.39 0)
