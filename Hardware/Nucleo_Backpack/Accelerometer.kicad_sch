@@ -337,6 +337,8 @@
     (uuid ddb34295-0f0f-42d7-b360-10eb6a7513a2)
   )
 
+  (no_connect (at 160.02 87.63) (uuid 2713417e-8162-494d-8556-884180ef1552))
+
   (wire (pts (xy 128.27 85.09) (xy 160.02 85.09))
     (stroke (width 0) (type default))
     (uuid 01eb41d7-425c-4030-aa7c-08c3e363b23f)
