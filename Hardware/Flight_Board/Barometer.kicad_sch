@@ -555,7 +555,7 @@
     (property "Value" "BARO_INT" (at 138.43 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" (at 144.78 93.98 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 144.78 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 93.98 0)
