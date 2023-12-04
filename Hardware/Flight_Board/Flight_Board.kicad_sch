@@ -1008,6 +1008,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 24867819-5af1-433a-b237-7906c2652bbd)
+    (property "Reference" "H5" (at 127 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 127 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Project:Stencil_hole" (at 124.46 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 229.87 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d9ba76c-2c0e-41d8-a319-4260ceb0b766)
@@ -1105,6 +1129,30 @@
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
           (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 124.46 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c3c1bc0-60a1-4275-a265-b9e3e272f086)
+    (property "Reference" "H7" (at 127 184.15 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 127 186.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Project:Stencil_hole" (at 124.46 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -1386,6 +1434,30 @@
       (project "Flight_Board"
         (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
           (reference "TP8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 144.78 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cc1b4f34-7610-4e28-9047-70da5bf19d21)
+    (property "Reference" "H6" (at 147.32 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 147.32 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Project:Stencil_hole" (at 144.78 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 144.78 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/e8eb85d5-f1ff-4500-895d-25b9ff5f6d36"
+          (reference "H6") (unit 1)
         )
       )
     )
