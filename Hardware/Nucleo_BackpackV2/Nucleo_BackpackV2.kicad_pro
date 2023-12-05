@@ -175,7 +175,9 @@
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.2,
+        0.4,
+        0.6
       ],
       "via_dimensions": [
         {
@@ -185,6 +187,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -413,7 +419,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Nucleo_Backpack.kicad_pro",
+    "filename": "Nucleo_BackpackV2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -516,6 +522,10 @@
     [
       "438715e3-b069-4320-9581-dc19d9c2cf0e",
       "Barometer"
+    ],
+    [
+      "52cae81a-54fe-42c0-9a19-be88b271d004",
+      "GPS"
     ],
     [
       "676308d2-6f42-4cc0-804f-a459182d1a62",
